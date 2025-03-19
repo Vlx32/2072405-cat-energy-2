@@ -3,15 +3,79 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Название проекта</title>
+  <title>CAT ENERGY</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="styles/styles.css">
   <script src="scripts/index.js" defer></script>
 </head>
 
 <body class="page__body">
-  <header class="header">Шапка</header>
-  <p>Hello world!</p>
+  <header class="main-header">
+    <a class="main-header__logo" href="/source/index.html">
+      <img class="main-header__logo main-header__logo--text" src="#" width="101" height="18" alt="">
+      <span class="visually-hidden">Логотип магазина Кэт Энерджи</span>
+    </a>
+    <nav class="main-nav main-nav--nojs">
+      <button class="main-nav__toogle main-nav__toogle--close" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <ul class="main-nav__list main-nav__list--close">
+        <li class="main-nav__item">
+          <a class="main-nav__link main-nav__link--index main-nav__link--current" href="/source/index.html">
+            Главная
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link main-nav__link--index" href="/source/catalog.html">
+            Каталог продукции
+          </a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link main-nav__link--index" href="/source/index.html">
+            Подбор программы
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="main-container">
+    <section class="promo">
+      <div class="promo__wrapper">
+        <h1 class="promo__title title">Функциональное питание для котов</h1>
+        <p class="promo__slogan">Занялся собой? Займись котом!</p>
+        <img class="promo__img" src="#" width="280" height="270" alt="">
+        <a class="promo__link button" href="/">Подобрать программу</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="main-footer__wrapper">
+      <a class="main-footer__logo-link" href="#">
+        <img class="main-footer__logo" src="#" width="128" height="24" alt="Логотип">
+      </a>
+      <ul class="main-footer__social social">
+        <li class="social__item">
+          <a class="social__link social__link--vkontakte" href="#">
+            <span class="visually-hidden">Мы в Вконтакте</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--vkontakte" href="#">
+            <span class="visually-hidden">Мы в Вконтакте</span>
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link social__link--vkontakte" href="#">
+            <span class="visually-hidden">Мы в Вконтакте</span>
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
 </body>
 
 </html>
