@@ -1,7 +1,9 @@
 .extra-products-list {
+  list-style-type: none;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  margin: 0;
+  padding: 0;
 
   @media (min-width: 768px) {
     flex-direction: row;
@@ -27,6 +29,7 @@
   line-height: 16px;
   text-transform: uppercase;
   color: #222222;
+  margin: 13px 0;
 }
 
 .list__description,
@@ -40,8 +43,7 @@
 
 .list__link {
   display: block;
-  width: 280px;
-  height: 40px;
+  padding: 10px 109px;
   font-family: "Oswald", sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -49,16 +51,23 @@
   color: #ffffff;
   text-decoration: none;
   background-color: #68b738;
-  margin: 0 auto;
+  margin: 15px 0 19px;
 }
 
 .extra-product__gift {
   height: 290px;
-  background-color: #68b738;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image:
+    linear-gradient(to bottom, rgba(#68b738, 0.85) 62.92%, #68b738 62.92%),
+    image-set(url("../../images/catalog-background-mobile@2x@1x.png")),
+    linear-gradient(to bottom, #4c4b50 62.92%, #68b738 62.92%);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% auto, 320px auto, 100% auto;
+  z-index: 0;
 }
 
 .extra-products__gift-description {

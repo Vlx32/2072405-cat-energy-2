@@ -1,4 +1,17 @@
+.guide__wrapper {
+  margin: 0 20px;
+}
+
+.guide__title {
+  font-family: "Oswald", sans-serif;
+  font-size: 36px;
+  line-height: 40px;
+}
+
 .guide__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -12,16 +25,11 @@
 
 .guide__item {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  min-width: 140px;
-  max-width: 240px;
-  margin: 0 auto;
+  margin: 0;
+  gap: 20px;
 
   @media (min-width: 768px) {
     align-items: center;
-    min-width: 170px;
-    max-width: 250px;
   }
 }
 
@@ -30,7 +38,12 @@
   font-size: 14px;
   line-height: 18px;
   color: #444444;
-  margin: 10px 0;
+}
+
+.icon__wrapper {
+  display: block;
+  width: 60px;
+  height: 60px;
 }
 
 .guide__item--leaf--background,

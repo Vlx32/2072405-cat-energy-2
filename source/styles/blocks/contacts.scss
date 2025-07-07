@@ -14,6 +14,7 @@
 }
 
 .contacts__address {
+  display: block;
   font-family: "Lato", sans-serif;
   font-style: normal;
   font-size: 14px;
@@ -29,7 +30,8 @@
   }
 
   .contacts__wrapper {
-    flex: 1 1 0;
+    display: flex;
+    flex-direction: row;
   }
 
   .contacts__map-wrapper {
@@ -41,7 +43,7 @@
   position: relative;
   width: 100%;
   padding-bottom: 56.25%;
-  height: 0;
+  height: 362px;
   overflow: hidden;
   border-radius: 8px;
 
