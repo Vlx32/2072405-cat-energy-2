@@ -10,6 +10,8 @@
   flex-direction: row;
   align-items: center;
   padding: 26px 20px;
+  gap: 20px;
+  background-color: #ffffff;
 }
 
 .contacts-lead {
@@ -34,11 +36,6 @@
     flex-direction: row;
     gap: 40px;
     align-items: flex-start;
-  }
-
-  .contacts__wrapper {
-    display: flex;
-    flex-direction: row;
   }
 
   .contacts__map-wrapper {

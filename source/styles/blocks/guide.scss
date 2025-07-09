@@ -88,5 +88,34 @@
   left: 17px;
   width: 26px;
   height: 31px;
+  margin: 10px 0;
+}
+
+.guide__item--leaf--background,
+.guide__item--water--background,
+.guide__item--meal--background,
+.guide__item--clock--background {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-color: #68b738;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+.guide__item--leaf--background {
+  background-image: url("../../icons/leaf-icon.svg");
+}
+
+.guide__item--water--background {
+  background-image: url("../../icons/water-icon.svg");
+}
+
+.guide__item--meal--background {
+  background-image: url("../../icons/eat-icon.svg");
+}
+
+.guide__item--clock--background {
   background-image: url("../../icons/weight-icon.svg");
 }
