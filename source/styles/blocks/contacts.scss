@@ -1,8 +1,15 @@
 .contacts {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  background-color: #ffffff;
+  background-color: #f2f2f2;
+  margin-top: 20px;
+}
+
+.contacts__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 26px 20px;
 }
 
 .contacts-lead {
